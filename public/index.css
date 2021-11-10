@@ -1,0 +1,19 @@
+.spinner {
+  margin: 10px;
+  padding: 10px;
+  border: 1px dotted red;
+}
+
+.myapp {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid green;
+}
+
+.spinner::before {
+  content: "This is a hydration (ReactDOM.hydrate)";
+}
+.myapp::before {
+  content: "This is a render (ReactDOM.render)";
+}
+
